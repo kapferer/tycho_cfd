@@ -1,6 +1,6 @@
 Tyrolian Computational Hydrodynamics
 
-link to detailed documentation and further information<http://tycho-cfd.at/>
+http://tycho-cfd.at/
 
 TYCHO is a multidimensional (1D/2D and 3D) compressible hydrodynamics code written in C and parallelized with OpenMP. A Lagrangian remap version of the Piecewise Parabolic Method developed by Paul Woodward and Phil Colella (1984) is applied. The code is based on the freely available VH-1 Package.
 
