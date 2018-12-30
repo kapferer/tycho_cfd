@@ -28,7 +28,7 @@ Find some examples on my channel at https://www.youtube.com/user/kapfology/video
 * An easy 3D initial-condition generator to extract boundaries from STL and Point Data (such as 3D scans)
 * Sound-simulations for investigating dB-Maps with obstacle absorbing and reflecting sound-waves
 
-Images of tychoGUI, tychoBCGEN and tychoBCG3D
+![Tycho GUI Tools](https://github.com/kapferer/tycho_cfd/blob/master/inde_image.png "Tycho GUI Tools")
 
 At http://tycho-cfd.at/  you can also find TYCHO for Windows (v1.3.1) - the complete simulation package for Windows with installer
 
