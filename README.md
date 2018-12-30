@@ -1,4 +1,4 @@
-##Tyrolian Computational Hydrodynamics
+## Tyrolian Computational Hydrodynamics
 
 http://tycho-cfd.at/
 
@@ -10,23 +10,21 @@ A short video-tutorial on how to set-up a simulation for a fan-grill from a STL-
 Find some examples on my channel at https://www.youtube.com/user/kapfology/videos?view=0
 
 
-TYCHO offers you:
+# TYCHO offers you:
 
-Obstacle - Gas interaction
-Heat-diffusion within obstacles
-Thermal-exchange between gas and obstacles
-Viscosity (Sutherland's law)
-Gravity as a constant background field
-Inclusion of marker-fields, which are advected with the velocity-field of the gas
-Wind-emitters
-Up to six different boundary conditions (easy to implement your own)
-Can write four different file types (including VTK)
-A graphical user interface to set up all simulation parameters
-An easy 2D initial-condition generator to extract boundaries from Pixelgraphics
-An easy 3D initial-condition generator to extract boundaries from STL and Point Data (such as 3D scans)
-Sound-simulations for investigating dB-Maps with obstacle absorbing and reflecting sound-waves
-The versions 1.3 and above do have more data in a parameter-file, see the documentation for details. tychoGUI assists you in generating the proper parameterfiles for your simulation.
-Compared to older versions, version V1.3 is improved regarding speed and it uses a different data format for initial/boundary/windemitter and marker files. You have to use tychoBCGEN V0.5 to generate the new file format, including a 200 byte offset at the beginning (for metadata) and a row-major ordering of the data.
+..*Obstacle - Gas interaction
+..*Heat-diffusion within obstacles
+..*Thermal-exchange between gas and obstacles
+..*Viscosity (Sutherland's law)
+..*Gravity as a constant background field
+..*Inclusion of marker-fields, which are advected with the velocity-field of the gas
+..*Wind-emitters
+..*Up to six different boundary conditions (easy to implement your own)
+..*Can write four different file types (including VTK)
+..*A graphical user interface to set up all simulation parameters
+..*An easy 2D initial-condition generator to extract boundaries from Pixelgraphics
+..*An easy 3D initial-condition generator to extract boundaries from STL and Point Data (such as 3D scans)
+..*Sound-simulations for investigating dB-Maps with obstacle absorbing and reflecting sound-waves
 
 Images of tychoGUI, tychoBCGEN and tychoBCG3D
 
