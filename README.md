@@ -12,7 +12,7 @@ Find some examples on my channel at https://www.youtube.com/user/kapfology/video
 
 # TYCHO offers you:
 
-..* Obstacle - Gas interaction
+* Obstacle - Gas interaction 
 ..* Heat-diffusion within obstacles
 ..*Thermal-exchange between gas and obstacles
 ..*Viscosity (Sutherland's law)
