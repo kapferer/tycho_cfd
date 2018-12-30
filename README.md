@@ -13,18 +13,18 @@ Find some examples on my channel at https://www.youtube.com/user/kapfology/video
 # TYCHO offers you:
 
 * Obstacle - Gas interaction 
-..* Heat-diffusion within obstacles
-..*Thermal-exchange between gas and obstacles
-..*Viscosity (Sutherland's law)
-..*Gravity as a constant background field
-..*Inclusion of marker-fields, which are advected with the velocity-field of the gas
-..*Wind-emitters
-..*Up to six different boundary conditions (easy to implement your own)
-..*Can write four different file types (including VTK)
-..*A graphical user interface to set up all simulation parameters
-..*An easy 2D initial-condition generator to extract boundaries from Pixelgraphics
-..*An easy 3D initial-condition generator to extract boundaries from STL and Point Data (such as 3D scans)
-..*Sound-simulations for investigating dB-Maps with obstacle absorbing and reflecting sound-waves
+* Heat-diffusion within obstacles
+* Thermal-exchange between gas and obstacles
+* Viscosity (Sutherland's law)
+* Gravity as a constant background field
+* Inclusion of marker-fields, which are advected with the velocity-field of the gas
+* Wind-emitters
+* Up to six different boundary conditions (easy to implement your own)
+* Can write four different file types (including VTK)
+* A graphical user interface to set up all simulation parameters
+* An easy 2D initial-condition generator to extract boundaries from Pixelgraphics
+* An easy 3D initial-condition generator to extract boundaries from STL and Point Data (such as 3D scans)
+* Sound-simulations for investigating dB-Maps with obstacle absorbing and reflecting sound-waves
 
 Images of tychoGUI, tychoBCGEN and tychoBCG3D
 
