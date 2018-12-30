@@ -1,0 +1,8 @@
+What is new in V1.00 since the last version V0.93:
+
+an enhanced routine for heat-diffusion within obstacles 
+a new describtion for thermal-exchange between gas and obstacles 
+a routine for viscosity (Sutherland's law)
+many small enhancements within the code
+
+October 2012

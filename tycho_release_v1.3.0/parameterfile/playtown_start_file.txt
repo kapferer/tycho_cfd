@@ -1,0 +1,167 @@
+#-------WELCOME TO TYCHOS PARAMETER FILES--------------
+#-------THIS FILE WORKS ONLY WITH TYCHO V1.2.1 -------
+#COMMENTS HAVE TO START WITH #
+#THE ORDER OF PARAMETERS HERE IS MANDATORY
+#IF YOU WISH MORE PARAMETERS TO INCLUDE
+#MAKE SURE TO EDIT START_FILE_READER.C
+#HAVE FUN
+#------------------------------------------------------
+
+#TYCHO Files[0], VTK RECTILINEAR_GRID BINARY Files [1], AMIRA MESH [2]
+#or IFRIT uniform scalar data files [3]
+1
+
+#Make ICs by editing the source file make_ic.c yes [0]
+#Read in initial conditions [1]
+#Only the obstacle distribution is read in [2]
+#A Sod Shock Tube is generated with [3]
+#Kelvin Helmholtz instabilities in 2D [4]
+#Your initial conditions have to be in TYCHO file format
+2
+
+#Initial Conditions
+#Initial density
+dummy
+#Initial temperature
+dummy
+#Initial velocities
+dummy
+#Initial wind
+dummy
+#Initial obstacles
+../initial_conditions/playtown/play_town_domain_ic.tyc
+#Initial Sound-emitter
+dummy
+#Initial marker
+dummy
+
+#Initial velocity field file present [1] or not [0]
+0
+
+#Output Directory
+/tmp/
+
+#Stratified Atmosphere [1] or constant Atmosphere [0]
+0
+
+#Basic properties
+#Resolution
+#x y z
+400
+400
+1
+
+#Dimension
+2
+
+#Length scale
+#meter in x,y,z
+400.0
+400.0
+0.0
+
+#Boundary conditions
+#Boundary conditions
+#0.....zero gradient
+#1.....reflecting
+#2.....small padding
+#3.....outflow boundaries
+#4.....inflow boundaries
+#5.....periodic boundaries
+#Bound.down, bound.up, bound.left, bound.right, bound.front, bound.back
+#Bound.down is set automatically to reflecting in case gravity is
+#switched on
+1
+1
+4
+0
+0
+0
+
+#if inflow boundaries the inflow velocities and density
+#inflow_velocity [m/s], inflow density [kg/m^3] and inflow temperature [K]
+#if you want to start with the constant velocity and direction over the whole
+#computational domain you have to set the last parameter in this section to
+#[1] for everywhere. If you want only inflow from boundaries from the starting
+#you have to set this parameter to [2].
+30
+1.229
+300
+1
+
+#Simulation end-time in minutes
+5
+
+#Output frequency in seconds
+0.0001
+
+#Restart frequency in seconds
+0.01
+
+#CFL Number
+0.3
+
+#Gravity [on--1] / [off--0]
+0
+
+#Gas constant
+287.058
+
+#Gamma
+1.6667
+
+#Wind [on--1] / [off--0]
+0
+
+#Wind speed [m/s]
+100
+
+#Number of Threads for OpenMP
+4
+
+#With obstacle [0--off]/[1--on]
+1
+
+#Obstacle density [kg/m^3]
+7874
+
+#Obstacle temperature [K]
+293
+
+#Obstacle Thermal diffusivity [m^2/s]
+0.000023
+
+#Specific heat capacity gas [J/kgK]
+1.005
+
+#Specific_heat capacity obstacle [J/kgK]
+0.450
+
+#A Marker Field is advected with the HYDRO Simulation [0--off]/[1--on]
+0
+
+#Marker density [kg/m^3]
+0.1
+
+#Viscosity of gas [0--off]/[1--on]
+0
+
+#With_sound_emitter [0--off]/[1--on]
+0
+
+#Sound Pressure Level dB
+0
+
+#With_one_pulse or periodic[0--off]/[1--on]
+0
+
+#Sound Frequency Hz
+0
+
+#Sound Reflection on Obstacle coefficient
+0
+
+#Obstacle Absorption Coefficient
+0
+
+#--------END OF PARAMETERFILE-----------------

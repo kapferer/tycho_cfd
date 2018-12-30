@@ -1,0 +1,6 @@
+To provide the user with a simple starting point for it's own simulations, two OCTAVE scripts are provided to set up 2D initial conditions for TYCHO.
+The scripts are meant to generate initial obstacle, marker-field and wind-emitter distributions for TYCHO 2D simulation. The scripts domain composer.m and marker composer.m are located in the tools directory and can be used with the freely obtainable OCTAVE. GNU OCTAVE is a high-level interpreted language, primarily intended for numerical computations and can be obtained at
+
+http://www.gnu.org/software/octave/
+
+If you want to generate 2D-ICs from pixel images use tychoBCGEN, which you can download from http://tycho-cfd.at/
