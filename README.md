@@ -1,4 +1,4 @@
-Tyrolian Computational Hydrodynamics
+##Tyrolian Computational Hydrodynamics
 
 http://tycho-cfd.at/
 
@@ -7,7 +7,7 @@ TYCHO is a multidimensional (1D/2D and 3D) compressible hydrodynamics code writt
 A short video-tutorial on how to set-up a simulation for a fan-grill from a STL-file and how to use PARAVIEW/VISIT for the visualisation can be found here.
 (The STL file was taken from http://www.thingiverse.com/thing:74964 - licensed under the Creative Commons license)
 
-Find some examples on my channel at
+Find some examples on my channel at https://www.youtube.com/user/kapfology/videos?view=0
 
 
 TYCHO offers you:
