@@ -28,9 +28,9 @@ Find some examples on my channel at https://www.youtube.com/user/kapfology/video
 
 Images of tychoGUI, tychoBCGEN and tychoBCG3D
 
-TYCHO for Windows (v1.3.1) - the complete simulation package for Windows with installer
+At http://tycho-cfd.at/  you can also find TYCHO for Windows (v1.3.1) - the complete simulation package for Windows with installer
 
-TYCHO (v1.3) - the simulation package for Linux (configure/make/make install)
+Here you find TYCHO (v1.3) - the simulation package for Linux (configure/make/make install)
 
 tychoGUI (v1.0) - a graphical user-interface to make interaction with TYCHO easier for Linux (qmake-qt4/make)
 
@@ -42,21 +42,20 @@ The simulation package is focused on gas-obstacle interaction experiments and ha
 
 TYCHO is freely available to everyone. You are welcome to download it and do whatever you want with it. I would appreciate, however, if you would acknowledge the package in your publications/work and if you would send me information for what purpose you use the code. Keep in mind that this code does not come with any guarantee.
 
-Here are some examples of TYCHO simulations. For some of them initial conditions can be downloaded.
+Here are some examples of TYCHO simulations. For some of them initial conditions can be downloaded in the example folder
 
-Wind through a model city
-Sound in a flat
-Wind in Town
-Pressure gradient in boiler
-3D toy model simulation enterprise
-Scramjet at MACH 2 temperature
-Turbulent airflow around obstacles 
-Soundspeaker simulation
-Windtunnel temperature	Sydney Opera House	Kelvin Helmhotz Instability	Wind through rocky region
-Gas in a Pipe
-Thermal exchange of gas and a fractal shaped obstacle
-Car in windtunnel
-Airfoil
-
-Windtunnel velocity
+* Wind through a model city
+* Sound in a flat
+* Wind in Town
+* Pressure gradient in boiler
+* 3D toy model simulation enterprise
+* Scramjet at MACH 2 temperature
+* Turbulent airflow around obstacles 
+* Soundspeaker simulation
+* Windtunnel temperature	Sydney Opera House	Kelvin Helmhotz Instability	Wind through rocky region
+* Gas in a Pipe
+* Thermal exchange of gas and a fractal shaped obstacle
+* Car in windtunnel
+* Airfoil
+* Windtunnel velocity
  
