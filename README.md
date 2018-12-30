@@ -12,8 +12,8 @@ Find some examples on my channel at https://www.youtube.com/user/kapfology/video
 
 # TYCHO offers you:
 
-..*Obstacle - Gas interaction
-..*Heat-diffusion within obstacles
+..* Obstacle - Gas interaction
+..* Heat-diffusion within obstacles
 ..*Thermal-exchange between gas and obstacles
 ..*Viscosity (Sutherland's law)
 ..*Gravity as a constant background field
